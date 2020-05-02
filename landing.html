@@ -4,8 +4,58 @@
     <title>
         Eleanor's Site
     </title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        div {
+            background-color:rgba(77, 77, 77, 0.5);
+            padding:20px;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        td:first-child {
+            font-weight: bold;
+        }
+        nav {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
+<nav class="navbar">
+  <a class="navbar-brand" href="#">
+    Eleanor's Site
+  </a>
+</nav>
 <body>
-    <h1>Test</h1>
+    <div id = "description" class = "col-auto">
+        <h3>Site information</h3>
+        <p>If you're here, you're one of the following: <ol>
+            <li>Eleanor</li>
+            <li>A stalker</li>
+            <li>Google PageRank?</li>
+        </ol>
+        Thus, you either know everything going on here or should not know anything. If, by chance, you happen to be someone I personally sent this link to, be honored! This site was created for me to practice Web Development but I hope it'll become a product - either a personal portfolio or a page containing cool stuff - I'm proud of and will constantly update!
+    </div>
+
+    <div id = "projects">
+        <h3>Projects</h3>
+        <p>Personal CS stuff I've made to ease that itch to code!</p>
+        <table class = "table">
+        <tr>
+            <th style="width:25%">Project</th>
+            <th style="width:50%">Description</th>
+            <th style="width:25%">More information</th>
+        </tr>
+        <tr>
+            <td>Boggle Hack</td>
+            <td>Made to beat my parents at Boggle with Friends :) Programmed with Python, used adb, OCR and an online Boggle solver. Always got the highest-point words but its slow speed compromised its winning rate.</td>
+            <td>under construction!</td>
+        </tr>
+        <tr>
+            <td>Song Quiz</td>
+            <td>Android game for a disgraced band. I decided to sell-out and use AdMob, earning me a fortune of $20. May remove soon due to intellectual property issues and ethical dilemma.</td>
+            <td>Should I drop the link?</td>
+        </tr>
+
+    </div>
 </body>
 </html>
