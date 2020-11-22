@@ -25,6 +25,23 @@ html {
             }
         }
         body {
-            background-image: linear-gradient(navy 40%, purple), url("https://images.unsplash.com/photo-1520034475321-cbe63696469a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+            background-color:black;
             background-blend-mode: lighten;
+        }
+        nav a {
+            color:white;
+        }
+
+        h3 {
+            text-align: center;
+            padding:20px;
+        }
+
+        #headshot {
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius:50%;
+            height:100px;
+            width:100px;
         }

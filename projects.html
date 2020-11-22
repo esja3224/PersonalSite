@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        Eleanor's Site
+        Eleanor's Site - Projects
     </title>
     <link rel="stylesheet" href="bootstrap.min.css">
    <link rel = "stylesheet" href = "style.css">
@@ -15,9 +15,9 @@
     <li class="nav-item">
       <a class="nav-link" href="blog.html">Blog</a>
     </li>
-    <li class="nav-item">
+    <!--li class="nav-item">
       <a class="nav-link" href="about.html">About Me</a>
-    </li>
+    </li-->
     <li class="nav-item">
       <a class="nav-link" href="projects.html">Project Directory</a>
     </li>
@@ -26,7 +26,7 @@
 <body>
     <div id = "description" class = "col-auto">
         <h3>Projects</h3>
-        <p>Mostly CS stuff I've made in my free time, but I hope to showcase some woodworking projects soon too!</p>
+        <p>Mostly software stuff/scripts I've made in my free time, but I hope to showcase some woodworking projects and hardware hacks soon too!</p>
     </div>
 
     <div id = "projects">
@@ -37,14 +37,29 @@
             <th style="width:25%">More information</th>
         </tr>
         <tr>
+            <td>Georgia Tech AR Tour</td>
+            <td>Augmented Reality tour of the Georgia Tech campus! Made with AR.js.</td>
+            <td><a href="https://github.gatech.edu/pages/mrajan31/Education_ESI/">Tour</a>, <a href="https://gtvault-my.sharepoint.com/:w:/g/personal/jj154_gatech_edu/EcKM5O3c_BlKpXU_8gTW_lYBVTnAm2mc6VWicBZtVxLdNw?e=5ljqzC">Barcodes</a></td>
+        </tr>
+        <tr>
+            <td>NYT Comment Analysis</td>
+            <td>Ran exploratory data analysis and NLP + machine learning algorithms on a Kaggle dataset of New York Times comments. Uses nltk, scikit-learn, pandas and numpy. Predicts the number of recommendations a comment receives with random forest regression and generates popular topics from comments with latent semantic analysis.</td>
+            <td><a href="https://colab.research.google.com/drive/1DKJPxitSrqJeV7THy1aX3CvmW98BiW_Z?usp=sharing">Colab</a> (Needed that GPU...)</td>
+        </tr>
+        <tr>
             <td>Boggle Hack</td>
-            <td>Made to beat my parents at Boggle with Friends :) Programmed with Python, used adb, OCR and an online Boggle solver. Always got the highest-point words but its slow speed compromised its winning rate.</td>
+            <td>Made to beat my family at Boggle with Friends :) Programmed with Python, used adb, OCR and an online Boggle solver. Always got the highest-point words but its slow speed compromised its winning rate.</td>
             <td>under construction!</td>
         </tr>
         <tr>
             <td>Song Quiz</td>
-            <td>Android game for a disgraced band. I decided to sell-out and use AdMob, earning me a fortune of $20. May remove soon due to intellectual property issues and ethical dilemma.</td>
-            <td>Should I drop the link?</td>
+            <td>Android game for an old favorite band. 3k installs on the Google Play Store.</td>
+            <td><a href="https://play.google.com/store/apps/details?id=com.eleanor.android.bigbangsongquiz">Play Store</a></td>
+        </tr>
+        <tr>
+            <td>Daybook</td>
+            <td>Online journal that analyzes your entry to determine your mood, as well as the people and places that contribute to that mood. Made with Google Cloud;s Natural Language API, OAuth, Flask and SQLite3. Made for YHack 2019, managed to rank within the top 10% of teams.</td>
+            <td><a href ="https://devpost.com/software/daybook-spc5f7">DevPost</a>, <a href = "https://github.com/daybook-space/">GitHub Repo</a></td>
         </tr>
 
     </div>
