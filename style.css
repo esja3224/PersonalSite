@@ -25,9 +25,8 @@ html {
             }
         }
         body {
-            padding-top:50px;
+            padding-top:60px;
             background-color:black;
-            background-blend-mode: lighten;
         }
         nav a {
             color:white;
